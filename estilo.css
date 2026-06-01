@@ -1,0 +1,13 @@
+header {
+    background-color: blueviolet (84, 116, 206);
+    color: blue;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
