@@ -10,36 +10,23 @@
    <header>
     <h1>Meu blog</h1>
     <p>Vou compartilhar conhecimentos com você</p>
-    <img  src="<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Nosso primeiro site</title>
-</head>
-<body>
-   <header>
-    <h1>Meu blog</h1>
-    <p>Vou compartilhar conhecimentos com você</p>
-    <img  src="https://br.pinterest.com/bomdiafeh/dylan-obrien/" alt="imagem um">
+    <img  src="https://conteudo.imguol.com.br/c/entretenimento/ba/2020/10/16/dylan-obrien-em-set-de-maze-runner-1602852284029_v2_1110x1110.jpg" alt="imagem um">
    </header>
    <main>
     <h2>Meu primeiro post</h2>
-    <p>Por: SEU NOME</p>
-    <p>Boas vindas ao meu Blog, aqui vou
+    <p>Por:SANDRA</p>
+    <p>Boas vindas ao meu Blog, aqui vou 
         compartilhar dicas com você!
     </p>
+    <button>❤ <span>0</span></button>
    </main>
 </body>
-</html>" alt="imagem um">
-   </header>
-   <main>
-    <h2>Meu primeiro post</h2>
-    <p>Por: SEU NOME</p>
-    <p>Boas vindas ao meu Blog, aqui vou
-        compartilhar dicas com você!
-    </p>
-   </main>
-</body>
+<script>
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", botaoClicado);
+    function botaoClicado(){
+        let texto = botao.querySelector("span");
+        texto.textContent++;
+    }
+</script>
 </html>
